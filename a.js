@@ -41,7 +41,7 @@ function signIn() {
     sleep(stepInterval);
 
     logger.log('打开联想智选App')
-    let appExist = app.laun~chApp('联想智选')
+    let appExist = app.laun~chApp('モンスト')
     if (!appExist) {
         logger.log('未安装联想智选App，结束流程');
         endAll(false);
